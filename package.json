@@ -1,0 +1,14 @@
+{
+  "name": "learnxahau-rng",
+  "version": "1.0.0",
+  "description": "Learning Xahau: on-chain randomness with the RNG amendment (dice and a Cron-driven lottery) using xahau.js 4.2.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build:hooks": "./hooks/build.sh"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "xahau": "4.2.0"
+  }
+}
